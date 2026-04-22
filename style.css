@@ -161,3 +161,18 @@ h1 {
   color: #5454d4;
   text-decoration: none;
 }
+.imag {
+  width: 310px;
+  height: 473px;
+  position: relative;
+}
+.imag img:nth-child(2) {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+.imag img:nth-child(1) {
+    position: absolute;
+    right: 100px;
+    z-index: 4;
+}
