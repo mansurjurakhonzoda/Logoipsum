@@ -115,3 +115,49 @@ h1 {
   margin: auto;
   margin-bottom: 100px;
 }
+.subscription {
+  width: 90%;
+  height: 473px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 100px;
+}
+.img {
+  width: 310px;
+  height: 473px;
+  position: relative;
+}
+.img img:nth-child(1) {
+  position: absolute;
+  top: 150px;
+}
+.img img:nth-child(2) {
+  position: absolute;
+  left: 145px;
+}
+.index {
+  width: 488px;
+  height: 229px;
+}
+.index p:nth-child(1) {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 57px;
+  color: #19191b;
+}
+.index p:nth-child(2) {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #696871;
+  margin: 40px 0px;
+}
+.index a {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 100%;
+  color: #5454d4;
+  text-decoration: none;
+}
