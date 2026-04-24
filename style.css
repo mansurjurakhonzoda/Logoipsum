@@ -254,3 +254,96 @@ h1 {
   color: #19191b;
   border: none;
 }
+.tarifi {
+  width: 85%;
+  height: 555px;
+  padding: 0% 5%;
+  margin: auto;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.tariph {
+  width: 289px;
+  height: 360px;
+  padding: 20px 0px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+}
+.tariph p:nth-child(1) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #696871;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tariph p:nth-child(2) {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+  color: #1d293f;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tariph p:nth-child(3) {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 50px;
+  color: #696871;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.tariph button {
+  width: 250px;
+  height: 60px;
+  margin-left: 19px;
+  background-color: #ffffff;
+  border: 1px solid #eae9f2;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 100%;
+  color: #5454d4;
+}
+.premium {
+  width: 290px;
+  height: 350px;
+  padding: 40px 0px;
+  border-radius: 10px;
+  background-color: #ff7143;
+}
+.premium p:nth-child(1) {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #ffffffb2;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.premium p:nth-child(2) {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 56px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.premium p:nth-child(3) {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 50px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.premium button {
+  width: 267px;
+  height: 60px;
+  margin-left: 11px;
+  background-color: #9f3919;
+  border: none;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 100%;
+  color: #ffffff;
+}
